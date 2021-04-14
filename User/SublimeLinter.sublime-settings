@@ -1,0 +1,19 @@
+// SublimeLinter Settings - User
+{
+	
+	"linters": {
+		"flake8": {
+			"@disable": false,
+			"args": ["--stdin-display-name", "${file:stdin}"],
+			"builtins": "",
+			"excludes": [],
+			"executable": "",
+			"ignore": "E501",
+			"jobs": 1,
+			"max-complexity": -1,
+			"max-line-length": null,
+			"select": "",
+			"show-code": false
+		}
+	}
+}
